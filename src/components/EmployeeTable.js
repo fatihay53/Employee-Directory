@@ -1,7 +1,7 @@
 import React from 'react';
 import * as ReactBootstrap from "react-bootstrap"
 
-const Poster4 = (props) => {
+const EmployeeTable = (props) => {
     return (
         <div className="row">
             <div className="col-sm-12">
@@ -43,4 +43,4 @@ const Poster4 = (props) => {
 // const clickLine = (props, elem) => {
 //     props.clickLine(elem)
 // }
-export default Poster4
+export default EmployeeTable;
