@@ -1,55 +1,94 @@
-# Unit 19 React Homework: Employee Directory
 
-## Overview
+<h1 align="center", margin="2%">                        👨🏻‍💼 Employee Directory 👩🏻‍🔧</h1>
 
-For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+[![GitHub license](https://img.shields.io/badge/license-MIT2.0-blue.svg)][L]
 
-## User Story
+[L]:https://opensource.org/licenses/MIT
 
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+<h1>Description</h1>
 
-## Business Context
+    This application can be used see employee list and easy to access information.
 
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
 
-## Acceptance Criteria
+<h1> Table of Contents </h1>
 
-Given a table of random users generated from the [Random User API](https://randomuser.me/), when the user loads the page, a table of employees should render. 
+* [Demo](#Demo)
 
-The user should be able to:
+* [Installation](#installation)
+  
+* [Usage](#usage)
 
-  * Sort the table by at least one category
 
-  * Filter the users by at least one property.
+* [License](#license)
 
-## Commit Early and Often
+* [Deployed](#Deployed)
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+ 
+* [Questions](#Questions)
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+## Demo:
 
-Follow these guidelines for committing:
+<p align="center">
+<img  src="./public/screenshot/table.jpg" width="75%" height="500px">
+</p>
 
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+<p align="center">
+<img src="./public/screenshot/Search.jpg" width="75%" height="500px">
+</p>
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
 
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
 
-* Test your application before you commit to ensure functionality at every step in the development process
+## Installation:
+    1️⃣ Clone repository to your local ✔
+    2️⃣ Run npm packages in (package.json) file ✔
+    3️⃣ Run 'npm start' to start application ✔
+##  Usage:
+    1️⃣ After running server ✔
+    2️⃣ It is able see the employee list in table ✔
+    3️⃣ Input search bar type name of the employee that you want to see ❗️    
+    4️⃣ Base on your search, image,phone,email,and birthdate will be show up ✔
+    5️⃣ To be able see all employee list again delete to type in search bar ✔
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+##  License:
+    This project is licensed under the MIT license.
 
-* Deploy this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
+    For more information about the license, click on the link below.
 
-* **Important**: Be sure to push your codebase to GitHub and **NOT** your built and deployed code. Ensure this happens by following the above instructions and using the `gh-pages` branch to host the deployed application's code.
+<h1>
+<div  style="font-size:50px">  
 
-## Submission on BCS
+©  [![license](https://img.shields.io/badge/license-MIT-green.svg)][M] 📝
 
-You are required to submit the following:
+[M]: https://opensource.org/licenses/mit
 
-* the URL to the deployed application
+</div>
 
-* the URL to the Github repository
+</h1>
+
+## Deployed:
+
+[![Deployed](https://user-images.githubusercontent.com/77207167/111052220-28eace80-8427-11eb-9d86-84c413479de1.png)][H]
+
+[H]: 
+
+## Questions:
+   
+<h1 align="center">
+
+     For questions ❓ 
+
+[![github](https://user-images.githubusercontent.com/77207167/111052614-58e7a100-842a-11eb-834d-21aa5fa25e2e.png)][1]
+[![linkedin](https://user-images.githubusercontent.com/77207167/111052328-d362f180-8427-11eb-93b2-db395a9da005.png)][2]
+[![Gmail](https://user-images.githubusercontent.com/77207167/111044783-9e02d780-8418-11eb-80c7-65c663549a9e.png)][3] 
+
+
+
+[1]: https://github.com/fatihay53
+[2]: https://www.linkedin.com/in/fatih-sultan-ay-211689181
+[3]: mailto:f.sultanay@gmail.com
+
+</h1>
+
+
+
