@@ -30,11 +30,11 @@
 ## Demo:
 
 <p align="center">
-<img  src="./public/screenshot/table.jpg" width="75%" height="500px">
+<img  src="./public/screenshot/table.jpg" >
 </p>
 
 <p align="center">
-<img src="./public/screenshot/Search.jpg" width="75%" height="500px">
+<img src="./public/screenshot/Search.jpg" >
 </p>
 
 
