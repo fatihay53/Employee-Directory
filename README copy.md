@@ -3,7 +3,7 @@
 
 [![GitHub license](https://img.shields.io/badge/license-MIT2.0-blue.svg)][L]
 
-[1]:https://opensource.org/licenses/MIT
+[L]:https://opensource.org/licenses/MIT
 
 <h1>Description</h1>
 
