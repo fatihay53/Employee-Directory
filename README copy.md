@@ -37,9 +37,6 @@
 <img src="./public/screenshot/Search.jpg" width="75%" height="500px">
 </p>
 
-<p align="center">
-<img src="./public/assets/dashboard.jpg" width="75%" height="500px">
-</p>
 
 
 ## Installation:
