@@ -1,7 +1,7 @@
 
 <h1 align="center", margin="2%">                        🏋️‍♀️ Employee Directory🏋🏾‍♂️</h1>
 
-[![GitHub license](https://img.shields.io/badge/license-MIT2.0-blue.svg)][1]
+[![GitHub license](https://img.shields.io/badge/license-MIT2.0-blue.svg)][L]
 
 [1]:https://opensource.org/licenses/MIT
 
@@ -21,6 +21,8 @@
 
 * [License](#license)
 
+* [Deployed](#Deployed)
+
  
 * [Questions](#Questions)
 
@@ -28,11 +30,11 @@
 ## Demo:
 
 <p align="center">
-<img  src="./public/assets/user.jpg" width="75%" height="500px">
+<img  src="./public/screenshot/table.jpg" width="75%" height="500px">
 </p>
 
 <p align="center">
-<img src="./public/assets/tracker.jpg" width="75%" height="500px">
+<img src="./public/screenshot/Search.jpg" width="75%" height="500px">
 </p>
 
 <p align="center">
@@ -43,14 +45,13 @@
 ## Installation:
     1️⃣ Clone repository to your local ✔
     2️⃣ Run npm packages in (package.json) file ✔
-    3️⃣ Run Npm run seed(seeders folder❗️) to create user to your local mongoDB database ✔
-    4️⃣ Run 'Node server' or 'npm start' to start application ✔
+    3️⃣ Run 'npm start' to start application ✔
 ##  Usage:
     1️⃣ After running server ✔
-    2️⃣ Choose a type of exercise that you want to do ✔
-    3️⃣ You have to fill atleast type exercise,name of exercise and duration time ❗️    
-    4️⃣ Save your exercise/workout ✔
-    5️⃣ Be able to see all work by clicking dasboard ✔
+    2️⃣ It is able see the employee list in table ✔
+    3️⃣ Input search bar type name of the employee that you want to see ❗️    
+    4️⃣ Base on your search, image,phone,email,and birthdate will be show up ✔
+    5️⃣ To be able see all employee list again delete to type in search bar ✔
 
 ##  License:
     This project is licensed under the MIT license.
@@ -60,13 +61,19 @@
 <h1>
 <div  style="font-size:50px">  
 
-©  [![license](https://img.shields.io/badge/license-MIT-green.svg)][1]
+©  [![license](https://img.shields.io/badge/license-MIT-green.svg)][M] 📝
 
-[1]: https://opensource.org/licenses/mit
+[M]: https://opensource.org/licenses/mit
 
 </div>
 
 </h1>
+
+## Deployed:
+
+[![Deployed](https://user-images.githubusercontent.com/77207167/111052220-28eace80-8427-11eb-9d86-84c413479de1.png)][H]
+
+[H]: https://online-offline-budget-oo.herokuapp.com/
 
 ## Questions:
    
