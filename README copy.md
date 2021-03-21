@@ -1,5 +1,5 @@
 
-<h1 align="center", margin="2%">                        🏋️‍♀️ Employee Directory🏋🏾‍♂️</h1>
+<h1 align="center", margin="2%">                        👨🏻‍💼 Employee Directory 👩🏻‍🔧</h1>
 
 [![GitHub license](https://img.shields.io/badge/license-MIT2.0-blue.svg)][L]
 
