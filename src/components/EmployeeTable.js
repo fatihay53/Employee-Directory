@@ -8,8 +8,17 @@ const EmployeeTable = (props) => {
                 <ReactBootstrap.Table striped bordered hover variant="dark">
                     <thead>
                         <tr>
-                            <th scope="col">Picture</th>
-                            <th onClick={() => props.sortBy("first")} scope="col">Full Name</th>
+                        <th scope="col">Picture</th>
+                            <th
+                            
+                                onClick={()=> props.sortBy()}
+                               
+                                >
+                            
+                            Full Name
+                            
+                            </th>
+                            
                             <th scope="col">Email</th>
                             <th scope="col">Phone</th>
                             <th scope="col">DOB</th>
@@ -19,12 +28,13 @@ const EmployeeTable = (props) => {
                         {
                             props.data.map(elem => {
                                 return (
-                                    <tr>
-                                        <td><img src={elem.picture.medium} /></td>
-                                        <td>{elem.name.first} {elem.name.last}</td>
-                                        <td>{elem.email}</td>
-                                        <td>{elem.phone}</td>
-                                        <td>{elem.dob.date}</td>
+                                    <tr key={ Math.random().toString(36).substr(2, 9)}>
+                                        <td ><img alt={elem.picture.medium} src={elem.picture.medium} /></td>
+                                        <td >{elem.name.first} {elem.name.last}</td>
+                                        
+                                        <td >{elem.email}</td>
+                                        <td >{elem.phone}</td>
+                                        <td >{elem.dob.date}</td>
 
                                     </tr>
                                 )
@@ -40,7 +50,5 @@ const EmployeeTable = (props) => {
 
 }
 
-// const clickLine = (props, elem) => {
-//     props.clickLine(elem)
-// }
+
 export default EmployeeTable;
