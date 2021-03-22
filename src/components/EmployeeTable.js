@@ -11,7 +11,7 @@ const EmployeeTable = (props) => {
                         <th scope="col">Picture</th>
                             <th
                             
-                                onClick={()=> props.sortBy()}
+                                onClick={()=> props.sortByFirstName()}
                                
                                 >
                             

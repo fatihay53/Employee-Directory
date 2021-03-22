@@ -14,9 +14,10 @@ export default class Home extends React.Component {
             data: [],
             initialData: [],
             name: "",
+            sortOrder : ""
       
         }
-        this.sortBy = this.sortBy.bind(this)
+        this.sortByFirstName = this.sortByFirstName.bind(this)
       
 
         this.apiService = new ApiService();
@@ -24,21 +25,25 @@ export default class Home extends React.Component {
     }
 
 
-    sortBy() {
+    sortByFirstName() {
 
-        let list = this.state.data
-      
 
-        list.sort((a, b) => {
-            let [a1, b1] = [a.name.first.toLowerCase(), b.name.first.toLowerCase()];
-            return a1.localeCompare(b1);
-        })
-       
-
-        this.setState({
-            data: list,
-       
-        })
+        const SortList = this.state.data.sort((a, b) => {
+            if (b.name.first > a.name.first) {
+                return -1
+            }
+            if (a.name.first > b.name.first) {
+                return 1
+            }
+            return 0
+        });
+        if (this.state.sortOrder === "descend") {
+            SortList.reverse()
+            this.setState({ sortOrder: "ascend" })
+        } else {
+            this.setState({ sortOrder: "descend" })
+        }
+        this.setState({ data: SortList })
 
     }
 
@@ -55,7 +60,7 @@ export default class Home extends React.Component {
                     </div>
 
                     <EmployeeTable data={this.state.data}
-                        sortBy={this.sortBy}
+                        sortByFirstName={this.sortByFirstName}
                      
                    
                     />
